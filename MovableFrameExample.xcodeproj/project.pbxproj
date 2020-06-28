@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,7 @@
 		3698E77624A8BE6E0083A0AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3698E77524A8BE6E0083A0AF /* Assets.xcassets */; };
 		3698E77924A8BE6E0083A0AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3698E77824A8BE6E0083A0AF /* Preview Assets.xcassets */; };
 		3698E77C24A8BE6E0083A0AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3698E77A24A8BE6E0083A0AF /* Main.storyboard */; };
+		3698E78624A8BE8E0083A0AF /* MovableFrame in Frameworks */ = {isa = PBXBuildFile; productRef = 3698E78524A8BE8E0083A0AF /* MovableFrame */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3698E78624A8BE8E0083A0AF /* MovableFrame in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +92,9 @@
 			dependencies = (
 			);
 			name = MovableFrameExample;
+			packageProductDependencies = (
+				3698E78524A8BE8E0083A0AF /* MovableFrame */,
+			);
 			productName = MovableFrameExample;
 			productReference = 3698E76E24A8BE6D0083A0AF /* MovableFrameExample.app */;
 			productType = "com.apple.product-type.application";
@@ -117,6 +122,9 @@
 				Base,
 			);
 			mainGroup = 3698E76524A8BE6D0083A0AF;
+			packageReferences = (
+				3698E78424A8BE8E0083A0AF /* XCRemoteSwiftPackageReference "MovableFrame" */,
+			);
 			productRefGroup = 3698E76F24A8BE6D0083A0AF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -348,6 +356,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3698E78424A8BE8E0083A0AF /* XCRemoteSwiftPackageReference "MovableFrame" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:tyagishi/MovableFrame.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3698E78524A8BE8E0083A0AF /* MovableFrame */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3698E78424A8BE8E0083A0AF /* XCRemoteSwiftPackageReference "MovableFrame" */;
+			productName = MovableFrame;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3698E76624A8BE6D0083A0AF /* Project object */;
 }
