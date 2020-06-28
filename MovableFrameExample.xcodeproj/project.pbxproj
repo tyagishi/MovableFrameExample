@@ -24,6 +24,7 @@
 		3698E77B24A8BE6E0083A0AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3698E77D24A8BE6E0083A0AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3698E77E24A8BE6E0083A0AF /* MovableFrameExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MovableFrameExample.entitlements; sourceTree = "<group>"; };
+		3698E78724A8BEA20083A0AF /* MovableFrame */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MovableFrame; path = ../MovableFrame; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +44,7 @@
 			children = (
 				3698E77024A8BE6D0083A0AF /* MovableFrameExample */,
 				3698E76F24A8BE6D0083A0AF /* Products */,
+				3698E78724A8BEA20083A0AF /* MovableFrame */,
 			);
 			sourceTree = "<group>";
 		};
