@@ -20,10 +20,8 @@ struct ContentView: View {
             Image("SampleImage")
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
                 .background(FrameViewRectPreferenceSetter(prefName: "ImageView"))
-            Text("test")
             FrameView(frameRect: $frameRect, canvasRect: canvasRect)
         }
-        .border(Color.green)
         .onPreferenceChange(FrameViewRectPreferenceKey.self, perform: { prefs in
             for pref in prefs {
                 if pref.name == "ImageView" {
@@ -31,7 +29,7 @@ struct ContentView: View {
                 }
             }
         })
-        .coordinateSpace(name: "mainZStack")
+        .coordinateSpace(name: "FrameViewCoordinate")
     }
     
 }
