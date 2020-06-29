@@ -13,6 +13,7 @@
 		3698E77924A8BE6E0083A0AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3698E77824A8BE6E0083A0AF /* Preview Assets.xcassets */; };
 		3698E77C24A8BE6E0083A0AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3698E77A24A8BE6E0083A0AF /* Main.storyboard */; };
 		3698E78624A8BE8E0083A0AF /* MovableFrame in Frameworks */ = {isa = PBXBuildFile; productRef = 3698E78524A8BE8E0083A0AF /* MovableFrame */; };
+		36EEC97C24A9B7390038C3A8 /* FrameViewRectPreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EEC97B24A9B7390038C3A8 /* FrameViewRectPreference.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		3698E77D24A8BE6E0083A0AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3698E77E24A8BE6E0083A0AF /* MovableFrameExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MovableFrameExample.entitlements; sourceTree = "<group>"; };
 		3698E78724A8BEA20083A0AF /* MovableFrame */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MovableFrame; path = ../MovableFrame; sourceTree = "<group>"; };
+		36EEC97B24A9B7390038C3A8 /* FrameViewRectPreference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FrameViewRectPreference.swift; path = ../../../../.Trash/FrameViewRectPreference.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				3698E77324A8BE6D0083A0AF /* ContentView.swift */,
 				3698E77524A8BE6E0083A0AF /* Assets.xcassets */,
 				3698E77A24A8BE6E0083A0AF /* Main.storyboard */,
+				36EEC97B24A9B7390038C3A8 /* FrameViewRectPreference.swift */,
 				3698E77D24A8BE6E0083A0AF /* Info.plist */,
 				3698E77E24A8BE6E0083A0AF /* MovableFrameExample.entitlements */,
 				3698E77724A8BE6E0083A0AF /* Preview Content */,
@@ -155,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3698E77424A8BE6D0083A0AF /* ContentView.swift in Sources */,
+				36EEC97C24A9B7390038C3A8 /* FrameViewRectPreference.swift in Sources */,
 				3698E77224A8BE6D0083A0AF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
