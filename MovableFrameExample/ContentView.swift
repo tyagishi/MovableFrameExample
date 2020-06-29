@@ -12,6 +12,8 @@ struct ContentView: View {
     @State private var frameRect: CGRect = CGRect(origin: CGPoint.zero,
                                                   size: CGSize(width: 300, height: 200))
     @State private var canvasRect: CGRect = CGRect.zero
+    
+    @State private var nsImage: NSImage? = nil
 
     var body: some View {
         ZStack {

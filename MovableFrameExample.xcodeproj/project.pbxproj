@@ -300,7 +300,7 @@
 				CODE_SIGN_ENTITLEMENTS = MovableFrameExample/MovableFrameExample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"MovableFrameExample/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = MovableFrameExample/Assets.xcassets;
 				DEVELOPMENT_TEAM = QU378YD9WW;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -324,7 +324,7 @@
 				CODE_SIGN_ENTITLEMENTS = MovableFrameExample/MovableFrameExample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"MovableFrameExample/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = MovableFrameExample/Assets.xcassets;
 				DEVELOPMENT_TEAM = QU378YD9WW;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
