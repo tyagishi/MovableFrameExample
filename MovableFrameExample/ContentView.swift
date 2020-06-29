@@ -19,7 +19,7 @@ struct ContentView: View {
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
                 .background(FrameViewRectPreferenceSetter(prefName: "ImageView"))
             Text("test")
-            FrameView(frameRect: $frameRect, canvasRect: $canvasRect)
+            FrameView(frameRect: $frameRect, canvasRect: canvasRect)
         }
         .border(Color.green)
         .onPreferenceChange(FrameViewRectPreferenceKey.self, perform: { prefs in
