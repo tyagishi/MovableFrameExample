@@ -19,7 +19,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3642ADE025F853DF0053CE83 /* MovableFrame */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MovableFrame; path = ../MovableFrame; sourceTree = "<group>"; };
 		3698E76E24A8BE6D0083A0AF /* MovableFrameExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovableFrameExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3698E77124A8BE6D0083A0AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3698E77324A8BE6D0083A0AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -50,7 +49,6 @@
 			children = (
 				3698E77024A8BE6D0083A0AF /* MovableFrameExample */,
 				3698E76F24A8BE6D0083A0AF /* Products */,
-				3642ADE025F853DF0053CE83 /* MovableFrame */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,7 +115,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1200;
-				LastUpgradeCheck = 1200;
+				LastUpgradeCheck = 1240;
 				TargetAttributes = {
 					3698E76D24A8BE6D0083A0AF = {
 						CreatedOnToolsVersion = 12.0;
@@ -306,6 +304,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = MovableFrameExample/MovableFrameExample.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = MovableFrameExample/Assets.xcassets;
@@ -330,6 +329,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = MovableFrameExample/MovableFrameExample.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = MovableFrameExample/Assets.xcassets;

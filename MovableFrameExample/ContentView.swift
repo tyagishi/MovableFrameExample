@@ -25,13 +25,13 @@ struct ContentView: View {
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
                 .background(FrameViewRectPreferenceSetter(prefName: "ImageView"))
                 .debugBorder(Color.yellow, width: 3)
-            FrameView(frameRect: $frameRect, canvasRect: canvasRect, imageRect: nsImage.size.placeInSizedCanvas(canvasRect.size))
+            FrameView(frameRect: $frameRect, canvasRect: canvasRect)
         }
         .debugBorder(.red, width: 4)
         .onPreferenceChange(FrameViewRectPreferenceKey.self, perform: { prefs in
             for pref in prefs {
                 if pref.name == "ImageView" {
-                    self.canvasRect = pref.rect
+                    self.canvasRect = nsImage.size.placeInSizedCanvas(pref.rect.size)
                 }
             }
         })

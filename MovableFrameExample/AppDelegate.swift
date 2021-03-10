@@ -31,9 +31,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         
         NSEvent.addLocalMonitorForEvents(matching: .flagsChanged) { (event) -> NSEvent? in
             if event.modifierFlags.contains(.shift) {
-                NotificationCenter.default.post(name: shiftIsChanged, object: true)
+                NotificationCenter.default.post(name: alignWithBorder, object: true)
             } else {
-                NotificationCenter.default.post(name: shiftIsChanged, object: false)
+                NotificationCenter.default.post(name: alignWithBorder, object: false)
             }
             return nil
         }
