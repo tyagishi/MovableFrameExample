@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3601C2E225F8B1940087916E /* SDSCGExtension in Frameworks */ = {isa = PBXBuildFile; productRef = 3601C2E125F8B1940087916E /* SDSCGExtension */; };
+		3601C2E625F8B3AB0087916E /* SwiftUIDebugUtil in Frameworks */ = {isa = PBXBuildFile; productRef = 3601C2E525F8B3AB0087916E /* SwiftUIDebugUtil */; };
 		3698E77224A8BE6D0083A0AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3698E77124A8BE6D0083A0AF /* AppDelegate.swift */; };
 		3698E77424A8BE6D0083A0AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3698E77324A8BE6D0083A0AF /* ContentView.swift */; };
 		3698E77624A8BE6E0083A0AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3698E77524A8BE6E0083A0AF /* Assets.xcassets */; };
@@ -35,6 +37,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3698E78624A8BE8E0083A0AF /* MovableFrame in Frameworks */,
+				3601C2E225F8B1940087916E /* SDSCGExtension in Frameworks */,
+				3601C2E625F8B3AB0087916E /* SwiftUIDebugUtil in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +103,8 @@
 			name = MovableFrameExample;
 			packageProductDependencies = (
 				3698E78524A8BE8E0083A0AF /* MovableFrame */,
+				3601C2E125F8B1940087916E /* SDSCGExtension */,
+				3601C2E525F8B3AB0087916E /* SwiftUIDebugUtil */,
 			);
 			productName = MovableFrameExample;
 			productReference = 3698E76E24A8BE6D0083A0AF /* MovableFrameExample.app */;
@@ -129,6 +135,8 @@
 			mainGroup = 3698E76524A8BE6D0083A0AF;
 			packageReferences = (
 				3698E78424A8BE8E0083A0AF /* XCRemoteSwiftPackageReference "MovableFrame" */,
+				3601C2E025F8B1940087916E /* XCRemoteSwiftPackageReference "SDSCGExtension" */,
+				3601C2E425F8B3AB0087916E /* XCRemoteSwiftPackageReference "SwiftUIDebugUtil" */,
 			);
 			productRefGroup = 3698E76F24A8BE6D0083A0AF /* Products */;
 			projectDirPath = "";
@@ -364,6 +372,22 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		3601C2E025F8B1940087916E /* XCRemoteSwiftPackageReference "SDSCGExtension" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:tyagishi/SDSCGExtension.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		3601C2E425F8B3AB0087916E /* XCRemoteSwiftPackageReference "SwiftUIDebugUtil" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:tyagishi/SwiftUIDebugUtil.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
 		3698E78424A8BE8E0083A0AF /* XCRemoteSwiftPackageReference "MovableFrame" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "git@github.com:tyagishi/MovableFrame.git";
@@ -375,6 +399,16 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		3601C2E125F8B1940087916E /* SDSCGExtension */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3601C2E025F8B1940087916E /* XCRemoteSwiftPackageReference "SDSCGExtension" */;
+			productName = SDSCGExtension;
+		};
+		3601C2E525F8B3AB0087916E /* SwiftUIDebugUtil */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3601C2E425F8B3AB0087916E /* XCRemoteSwiftPackageReference "SwiftUIDebugUtil" */;
+			productName = SwiftUIDebugUtil;
+		};
 		3698E78524A8BE8E0083A0AF /* MovableFrame */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 3698E78424A8BE8E0083A0AF /* XCRemoteSwiftPackageReference "MovableFrame" */;
