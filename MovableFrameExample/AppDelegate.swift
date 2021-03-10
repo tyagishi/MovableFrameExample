@@ -7,6 +7,7 @@
 
 import Cocoa
 import SwiftUI
+import MovableFrame
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
@@ -28,6 +29,15 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         window.setFrameAutosaveName("Main Window")
         window.contentView = NSHostingView(rootView: contentView)
         window.makeKeyAndOrderFront(nil)
+        
+        NSEvent.addLocalMonitorForEvents(matching: .flagsChanged) { (event) -> NSEvent? in
+            if event.modifierFlags.contains(.shift) {
+                NotificationCenter.default.post(name: shiftIsChanged, object: true)
+            } else {
+                NotificationCenter.default.post(name: shiftIsChanged, object: false)
+            }
+            return nil
+        }
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
