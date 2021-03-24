@@ -19,7 +19,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3601C2F325F8C2290087916E /* MovableFrame */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MovableFrame; path = ../MovableFrame; sourceTree = "<group>"; };
 		3698E76E24A8BE6D0083A0AF /* MovableFrameExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovableFrameExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3698E77124A8BE6D0083A0AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3698E77324A8BE6D0083A0AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -50,7 +49,6 @@
 			children = (
 				3698E77024A8BE6D0083A0AF /* MovableFrameExample */,
 				3698E76F24A8BE6D0083A0AF /* Products */,
-				3601C2F325F8C2290087916E /* MovableFrame */,
 			);
 			sourceTree = "<group>";
 		};
